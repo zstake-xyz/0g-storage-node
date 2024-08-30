@@ -33,7 +33,7 @@
 
 # List of nodes to bootstrap UDP discovery. Note, `network_enr_address` should be
 # configured as well to enable UDP discovery.
-network_boot_nodes = ["/ip4/54.219.26.22/udp/1234/p2p/16Uiu2HAmTVDGNhkHD98zDnJxQWu3i1FL1aFYeh9wiQTNu4pDCgps","/ip4/52.52.127.117/udp/1234/p2p/16Uiu2HAkzRjxK2gorngB1Xq84qDrT4hSVznYDHj6BkbaE4SGx9oS","/ip4/18.162.65.205/udp/1234/p2p/16Uiu2HAm2k6ua2mGgvZ8rTMV8GhpW71aVzkQWy7D37TTDuLCpgmX"]
+network_boot_nodes = ["/ip4/54.219.26.22/udp/1234/p2p/16Uiu2HAmTVDGNhkHD98zDnJxQWu3i1FL1aFYeh9wiQTNu4pDCgps","/ip4/52.52.127.117/udp/1234/p2p/16Uiu2HAkzRjxK2gorngB1Xq84qDrT4hSVznYDHj6BkbaE4SGx9oS","/ip4/8.154.47.100/udp/1234/p2p/16Uiu2HAm2k6ua2mGgvZ8rTMV8GhpW71aVzkQWy7D37TTDuLCpgmX"]
 
 # List of libp2p nodes to initially connect to.
 # network_libp2p_nodes = []
@@ -78,7 +78,6 @@ network_boot_nodes = ["/ip4/54.219.26.22/udp/1234/p2p/16Uiu2HAmTVDGNhkHD98zDnJxQ
 
 # RPC endpoint to sync event logs on EVM compatible blockchain.
 blockchain_rpc_endpoint = "http://your validator ip:8545"
-# Available rpc information : https://0g-new-rpc.dongqn.com/
 
 # Flow contract address to sync event logs.
 log_contract_address = "0xbD2C3F0E65eDF5582141C35969d66e34629cC768"
